@@ -5,4 +5,9 @@ import com.exemple.GestionAchat.Entity.Produit;
 
 public interface ProduitServiceInterface extends BaseServiceInterface<Produit, Long>{
 
+	
+	void assignProduitToStock(Long idProduit, Long idStock);
+	
+	
+	
 }

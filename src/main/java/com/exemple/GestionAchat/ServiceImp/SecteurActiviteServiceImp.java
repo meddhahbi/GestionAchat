@@ -9,4 +9,10 @@ import com.exemple.GestionAchat.ServiceInterface.SecteurActiviteServiceInterface
 @Service
 public class SecteurActiviteServiceImp extends BaseServiceImp<SecteurActivite,Long> implements SecteurActiviteServiceInterface{
 
+	@Override
+	public void assignSecteurActiviteToFournisseur(Long fournisseurId, Long secteurActiviteId) {
+		
+		
+	}
+
 }
