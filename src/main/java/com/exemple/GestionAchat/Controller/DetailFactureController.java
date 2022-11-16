@@ -7,7 +7,7 @@ import com.exemple.GestionAchat.Entity.CategoryProduit;
 import com.exemple.GestionAchat.Entity.DetailFacture;
 
 @RestController
-@RequestMapping("/catProd")
+@RequestMapping("/detailFacture")
 public class DetailFactureController extends BaseController<DetailFacture, Long>{
 
 }
