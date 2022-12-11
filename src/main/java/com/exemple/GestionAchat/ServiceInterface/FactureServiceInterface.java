@@ -11,4 +11,6 @@ public interface FactureServiceInterface extends BaseServiceInterface<Facture, L
 	
 	List<Facture> getFacturesByFournisseur(Long idFournisseur);
 	
+	Integer getNbfactureValides();
+	
 }

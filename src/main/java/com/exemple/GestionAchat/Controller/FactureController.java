@@ -23,11 +23,18 @@ public class FactureController extends BaseController<Facture, Long>{
 	
 	
 	
-	 @GetMapping("getByFournisseur/{idF}")
+	 @GetMapping("/getByFournisseur/{idF}")
 	    private List<Facture> getFactureByFournisseur(@PathVariable(value = "idF") Long idF){
 	        return factureService.getFacturesByFournisseur(idF);
 	    }
 
 	
 	
+	 
+	 @GetMapping("/getFactureValides")
+	 private Integer nbFactrueValides() {
+		 return factureService.getNbfactureValides();
+	 }
+	 
+	 
 }
